@@ -8,7 +8,7 @@ export default function Message({
   age: number;
 }) {
   return (
-    <p className="bg-primary text-white display-5">
+    <p className="alert alert-success">
       This is a message from {name} who is a <b>{job}</b>. He's <b>{age}</b>{" "}
       years old.
     </p>
